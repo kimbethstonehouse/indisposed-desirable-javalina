@@ -1,6 +1,5 @@
 # Monzo Receipt Reader
 
-The API is going to use the **Monzo API**, **Azure Vision API**, building and integrating everything in **Python**. 
-The goal is to take pictures of a receipt and run it through Microsoft Azure's Vision API to get a raw text dump file. We then take the raw text dump and try to analyze it line by line to see how it's structured and find patterns to how the receipt works. We then extract each item (quantities, singular item prices, total item prices) and feed it into the Monzo API.
+We used Monzo’s API in conjunction with Azure’s Computer Vision API to analyse a photograph of a printed or handwritten receipt and extract individual items, quantities and prices. A digital version was then generated and automatically attached to the transaction in the Monzo app.
 
 Won the Monzo Challenge at Hack Cambridge 4D
